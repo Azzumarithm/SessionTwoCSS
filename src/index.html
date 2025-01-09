@@ -16,11 +16,11 @@
   <header class="shadow-sm bg-gray-50">
 
     <div class="">
-      <div class="w-full h-16 flex justify-center items-center lg:hidden">
+      <div class="w-full h-16 flex justify-center items-center lg:hidden bg-gray-100">
         <button class="bg-red-500 py-2 px-4 text-white my-2 border rounded-md"><strong>Donate</strong></button>
       </div>
 
-      <div class="container relative min-w-full lg:px-8 lg:mx-auto">
+      <div class="container relative min-w-full lg:px-8 lg:mx-auto xl:px-36 2xl:px-36">
         <nav class="flex items-center justify-between py-5">
           <!-- Logo -->
           <div class="absolute bg-blue-500 p-4 flex items-center justify-center top-0">
@@ -90,10 +90,10 @@
       </div>
     </div>
 
-    <div class="w-full h-10 bg-gray-100 flex items-center space-x-2">
+    <div class="min-w-full h-10 bg-gray-100 flex items-center space-x-2">
       <img
         src="./images/home.png"
-        class="w-4 h-4 ml-24 lg:ml-32"
+        class="w-4 h-4 ml-24 lg:ml-32 xl:ml-[15rem] 2xl:ml-[15rem]"
         alt=""
       >
       <h4 class="text-blue-500"><strong>Home</strong></h4>
@@ -108,137 +108,302 @@
 
   <!-- Main contents -->
   <main>
-    <section class="main-page min-h-screen min-w-full">
+    <section class="main-page min-w-full">
       <!-- Images with title -->
-      <div class="pt-7 pb-12 bg-gray-200 relative md:pb-4 md:px-8">
 
-        <h1 class="px-4 font-black text-4xl text-blue-500 mb-12 md:hidden ">Food Security Analysis</h1>
+      <div class="pt-7 pb-12 bg-gray-200 relative md:pb-4 md:px-8 xl:px-36 2xl:px-36">
 
-        <h1 class="font-black text-5xl text-blue-500 mb-12 hidden md:block">Food Security<br>Analysis</h1>
+        <h1 class="px-4 font-black text-4xl text-blue-500 md:mb-12 md:hidden">Food Security Analysis</h1>
 
-        <div class="min-w-full absolute md:static px-4">
-          <div class="flex justify-center">
-            <img
-              src="./images/WFP-food-security-analysis.jpg"
-              class="w-full md:absolute md:w-96 md:top-10 md:right-0 md:px-8"
-              alt=""
-            >
-          </div>
+        <h1 class="font-black text-6xl text-blue-500 mb-12 w-1/2 hidden md:block">Food Security<br>Analysis</h1>
 
 
-          <div class="mt-5 space-y-5 md:mt-36 md:px-8 md:hidden">
-
-            <div>
-              <h1 class="font-bold text-2xl text-blue-900">555</h1>
-              <p class="font-bold text-blue-500">in-depth assessments since 2001</p>
-            </div>
-
-            <div>
-              <h1 class="font-bold text-2xl text-blue-900">59 COUNTRIES</h1>
-              <p class="font-bold text-blue-500">with Food Security Monitoring Systems</p>
-            </div>
-
-            <div>
-              <h1 class="font-bold text-2xl text-blue-900">20,000+ Surveys</h1>
-              <p class="font-bold text-blue-500">carried out using mVAM monthly</p>
-            </div>
-
-
-          </div>
-
-          <div class="my-24 md:hidden">
-
-            <p class="text-wrap">
-              When faced with an emergency or dealing with structural food insecurity, <strong>information can save
-                lives</strong>
-
-              <br>
-              <br>
-
-              Who are the food insecure or vulnerable people? How many are there? Where do they live? Why are they food
-              insecure or vulnerable? How is the situation likely to evolve and what are the risks threatening them? A
-              unique network of over <strong>150 analysts around the world</strong> seeks to provide answers to these
-              key questions,
-              guiding the World Food Programme (WFP)’s food security analysis work, commonly known as Vulnerability
-              Analysis and Mapping (<strong>VAM</strong>).
-
-              <br>
-              <br>
-
-              Through food security analysis and monitoring, WFP provides <strong>actionable food security
-                information</strong> for each
-              country in which it works. By combining traditional assessment methods with advanced and emerging
-              technologies, WFP is able to <strong>identify food insecure populations</strong> around the world, and to
-              <strong>establish the underlying causes of food insecurity</strong>.
-            </p>
-
-            <div class="flex justify-center mt-5 underline text-blue-500">
-              <p>Show More</p>
-            </div>
-
-          </div>
-
-
+        <div class="flex justify-center hidden md:block">
+          <img
+            src="./images/WFP-food-security-analysis.jpg"
+            class="w-full md:absolute px-4 md:absolute md:w-[27rem] md:top-10 md:right-0 md:px-8 lg:w-[32rem] xl:w-[36rem] xl:right-36 xl:px-0 2xl:right-36 2xl:px-0"
+            alt=""
+          >
         </div>
+
+      </div>
+
+      <div class="flex md:hidden">
+        <div class="w-[1rem] h-[3rem]  bg-gray-200"></div>
+
+        <img
+          src="./images/WFP-food-security-analysis.jpg"
+          class="w-full"
+          alt=""
+        >
+        <div class="w-[1rem] h-[3rem]  bg-gray-200"></div>
 
       </div>
 
       <!-- Gap -->
+      <!-- Stats and info -->
 
+      <div class="mt-[1rem]">
+        <div class="mt-5 px-4 space-y-5 md:mt-8 md:px-8 md:block xl:px-36 2xl:px-36">
 
+          <div>
+            <h1 class="font-bold text-2xl text-blue-900">555</h1>
+            <p class="font-bold text-blue-500">in-depth assessments since 2001</p>
+          </div>
 
-      <!-- Stats -->
-      <div class="mt-36 px-4 space-y-5 hidden md:mt-8 md:px-8 md:block">
+          <div>
+            <h1 class="font-bold text-2xl text-blue-900">59 COUNTRIES</h1>
+            <p class="font-bold text-blue-500">with Food Security Monitoring Systems</p>
+          </div>
 
-        <div>
-          <h1 class="font-bold text-2xl text-blue-900">555</h1>
-          <p class="font-bold text-blue-500">in-depth assessments since 2001</p>
+          <div>
+            <h1 class="font-bold text-2xl text-blue-900">20,000+ Surveys</h1>
+            <p class="font-bold text-blue-500">carried out using mVAM monthly</p>
+          </div>
         </div>
 
-        <div>
-          <h1 class="font-bold text-2xl text-blue-900">59 COUNTRIES</h1>
-          <p class="font-bold text-blue-500">with Food Security Monitoring Systems</p>
-        </div>
+        <div class="my-16 px-4 md:px-8 md:block md:text-xl lg:w-5/6 xl:px-36 2xl:px-36">
 
-        <div>
-          <h1 class="font-bold text-2xl text-blue-900">20,000+ Surveys</h1>
-          <p class="font-bold text-blue-500">carried out using mVAM monthly</p>
+          <p class="text-wrap">
+            When faced with an emergency or dealing with structural food insecurity, <strong>information can save
+              lives</strong>
+
+            <br>
+            <br>
+
+            Who are the food insecure or vulnerable people? How many are there? Where do they live? Why are they food
+            insecure or vulnerable? How is the situation likely to evolve and what are the risks threatening them? A
+            unique network of over <strong>150 analysts around the world</strong> seeks to provide answers to these
+            key questions,
+            guiding the World Food Programme (WFP)’s food security analysis work, commonly known as Vulnerability
+            Analysis and Mapping (<strong>VAM</strong>).
+
+            <br>
+            <br>
+
+            Through food security analysis and monitoring, WFP provides <strong>actionable food security
+              information</strong> for each
+            country in which it works. By combining traditional assessment methods with advanced and emerging
+            technologies, WFP is able to <strong>identify food insecure populations</strong> around the world, and to
+            <strong>establish the underlying causes of food insecurity</strong>.
+          </p>
+
+          <div class="flex justify-center mt-5 underline text-blue-500">
+            <p>Show More</p>
+          </div>
+
         </div>
       </div>
 
-      <div class="my-24 hidden px-8 md:block md:text-xl">
 
-        <p class="text-wrap">
-          When faced with an emergency or dealing with structural food insecurity, <strong>information can save
-            lives</strong>
+    </section>
 
-          <br>
-          <br>
+    <!-- Publications -->
+    <section>
+      <div class="px-4 xl:px-36 2xl:px-36">
+        <h1 class="font-bold mt-4 mb-12 px-4 text-center text-4xl">Publications</h1>
 
-          Who are the food insecure or vulnerable people? How many are there? Where do they live? Why are they food
-          insecure or vulnerable? How is the situation likely to evolve and what are the risks threatening them? A
-          unique network of over <strong>150 analysts around the world</strong> seeks to provide answers to these
-          key questions,
-          guiding the World Food Programme (WFP)’s food security analysis work, commonly known as Vulnerability
-          Analysis and Mapping (<strong>VAM</strong>).
+        <div class="grid grid-cols-2 gap-3 lg:grid-cols-3">
+          <div class="flex justify-between bg-gray-200 p-8">
+            <div class="flex flex-col justify-between">
+              <h1 class="font-bold text-blue-600">VAM COVID-19</h1>
 
-          <br>
-          <br>
+              <p class="text-gray-600">9 NOVEMBER 2020</p>
+            </div>
 
-          Through food security analysis and monitoring, WFP provides <strong>actionable food security
-            information</strong> for each
-          country in which it works. By combining traditional assessment methods with advanced and emerging
-          technologies, WFP is able to <strong>identify food insecure populations</strong> around the world, and to
-          <strong>establish the underlying causes of food insecurity</strong>.
-        </p>
+            <img
+              src="./images/Vam - COVID19_page-0001.jpg"
+              class="h-36"
+              alt=""
+            >
 
-        <div class="flex justify-center mt-5 underline text-blue-500">
-          <p>Show More</p>
+          </div>
+          <div class="flex justify-between bg-gray-200 p-8">
+            <div class="flex flex-col justify-between">
+              <h1 class="font-bold text-blue-600">VAM COVID-19</h1>
+
+              <p class="text-gray-600">9 NOVEMBER 2020</p>
+            </div>
+
+            <img
+              src="./images/Vam - COVID19_page-0001.jpg"
+              class="h-36"
+              alt=""
+            >
+
+          </div>
+          <div class="flex justify-between bg-gray-200 p-8">
+            <div class="flex flex-col justify-between">
+              <h1 class="font-bold text-blue-600">VAM COVID-19</h1>
+
+              <p class="text-gray-600">9 NOVEMBER 2020</p>
+            </div>
+
+            <img
+              src="./images/Vam - COVID19_page-0001.jpg"
+              class="h-36"
+              alt=""
+            >
+
+          </div>
+          <div class="flex justify-between bg-gray-200 p-8">
+            <div class="flex flex-col justify-between">
+              <h1 class="font-bold text-blue-600">VAM COVID-19</h1>
+
+              <p class="text-gray-600">9 NOVEMBER 2020</p>
+            </div>
+
+            <img
+              src="./images/Vam - COVID19_page-0001.jpg"
+              class="h-36"
+              alt=""
+            >
+
+          </div>
+          <div class="flex justify-between bg-gray-200 p-8">
+            <div class="flex flex-col justify-between">
+              <h1 class="font-bold text-blue-600">VAM COVID-19</h1>
+
+              <p class="text-gray-600">9 NOVEMBER 2020</p>
+            </div>
+
+            <img
+              src="./images/Vam - COVID19_page-0001.jpg"
+              class="h-36"
+              alt=""
+            >
+
+          </div>
+          <div class="flex justify-between bg-gray-200 p-8">
+            <div class="flex flex-col justify-between">
+              <h1 class="font-bold text-blue-600">VAM COVID-19</h1>
+
+              <p class="text-gray-600">9 NOVEMBER 2020</p>
+            </div>
+
+            <img
+              src="./images/Vam - COVID19_page-0001.jpg"
+              class="h-36"
+              alt=""
+            >
+
+          </div>
         </div>
 
+        <div class="flex justify-center">
+          <button class="bg-white border rounded-md border-blue-500 px-6 py-2 mt-10 text-blue-500 text-sm font-black">
+            SHOW MORE</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- In Focus -->
+    <section class="min-w-full">
+      <div class="px-4 xl:px-36 2xl:px-36">
+        <h1 class="font-bold text-4xl text-center mt-10 mb-9">In focus</h1>
+        <div class="grid grid-cols-1 gap-10 md:grid-cols-3 md:gap-2">
+          <div class="group w-full overflow-hidden">
+            <div class="relative h-60 overflow-hidden md:h-48">
+              <img
+                src="./images/HAI_20161014_WFP-Alexis_Masciarelli_7307_res.jpg"
+                class="w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-110"
+                alt=""
+              >
+            </div>
+
+            <div class="bg-white h-44 w-full pt-8 pb-10 px-7 border border-solid md:pt-5 md:pb-8">
+              <div class="flex flex-col justify-between h-full">
+                <h1 class="font-bold text-blue-500 text-2xl">Special Focus</h1>
+                <p><span class="font-bold text-blue-500 text-wrap">PUBLICATION </span><span
+                    class="text-blue-500 text-wrap"
+                  >| 16 NOVEMBER</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="group w-full overflow-hidden">
+            <div class="relative h-60 overflow-hidden md:h-48">
+              <img
+                src="./images/HAI_20161014_WFP-Alexis_Masciarelli_7307_res.jpg"
+                class="w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-110"
+                alt=""
+              >
+            </div>
+
+            <div class="bg-white h-44 w-full pt-8 pb-10 px-7 border border-solid md:pt-5 md:pb-8">
+              <div class="flex flex-col justify-between h-full">
+                <h1 class="font-bold text-blue-500 text-2xl">Special Focus</h1>
+                <p><span class="font-bold text-blue-500 text-wrap">PUBLICATION </span><span
+                    class="text-blue-500 text-wrap"
+                  >| 16 NOVEMBER</span></p>
+              </div>
+            </div>
+          </div>
+
+          <div class="group w-full overflow-hidden">
+            <div class="relative h-60 overflow-hidden md:h-48">
+              <img
+                src="./images/HAI_20161014_WFP-Alexis_Masciarelli_7307_res.jpg"
+                class="w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-110"
+                alt=""
+              >
+            </div>
+
+            <div class="bg-white h-44 w-full pt-8 pb-10 px-7 border border-solid md:pt-5 md:pb-8">
+              <div class="flex flex-col justify-between h-full">
+                <h1 class="font-bold text-blue-500 text-2xl">Special Focus</h1>
+                <p><span class="font-bold text-blue-500 text-wrap">PUBLICATION </span><span
+                    class="text-blue-500 text-wrap"
+                  >| 16 NOVEMBER</span></p>
+              </div>
+            </div>
+          </div>
+
+
+
+
+        </div>
       </div>
 
+    </section>
 
+
+    <!-- Related topics -->
+    <section class="min-w-screen">
+      <div class="w-full bg-blue-500 mt-10">
+        <div class="px-4 pt-14 pb-14 xl:px-36 2xl:px-36">
+          <div class="flex justify-center">
+            <h1 class="font-black text-3xl pb-8 text-white">Related topics</h1>
+          </div>
+
+          <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
+            <div class="border border-solid border-white px-5 py-5 space-y-3">
+              <h1 class="font-bold text-white text-2xl">Market analysis</h1>
+              <p class="text-white">
+                Understanding local economies and markets to identify the best ways to assist people in need and
+                maximize impact</p>
+            </div>
+            <div class="border border-solid border-white px-5 py-5 space-y-3">
+              <h1 class="font-bold text-white text-2xl">Market analysis</h1>
+              <p class="text-white">
+                Understanding local economies and markets to identify the best ways to assist people in need and
+                maximize impact</p>
+            </div>
+            <div class="border border-solid border-white px-5 py-5 space-y-3">
+              <h1 class="font-bold text-white text-2xl">Market analysis</h1>
+              <p class="text-white">
+                Understanding local economies and markets to identify the best ways to assist people in need and
+                maximize impact</p>
+            </div>
+            <div class="border border-solid border-white px-5 py-5 space-y-3">
+              <h1 class="font-bold text-white text-2xl">Market analysis</h1>
+              <p class="text-white">
+                Understanding local economies and markets to identify the best ways to assist people in need and
+                maximize impact</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
     </section>
   </main>
 
