@@ -17,3 +17,9 @@
 https://www.iconfinder.com/search?q=facebook&price=free
 
 https://www.wfp.org/food-security-analysis
+
+https://pickcoloronline.com/
+
+https://spektran.com/007dbc
+
+font, color, size

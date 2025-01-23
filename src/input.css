@@ -3,12 +3,28 @@
 @tailwind utilities;
 
 @layer base {
-    * {
-      @apply m-0 p-0 box-border;
-    }
-  
-    *::before,
-    *::after {
-      @apply box-border;
-    }
+  * {
+    @apply m-0 p-0 box-border;
   }
+
+  *::before,
+  *::after {
+    @apply box-border;
+  }
+}
+
+
+@layer utilities {
+  .nav{
+    @apply relative font-bold tracking-[1px]
+  }
+
+  .nav::after{
+    @apply content-[''] bg-gray-500 h-[5px] w-full opacity-0 left-0 -bottom-0 absolute transition-all duration-300 
+  }
+
+  .nav:hover::after{
+    @apply opacity-100
+  }
+
+}
